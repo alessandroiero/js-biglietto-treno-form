@@ -1,0 +1,14 @@
+.d-flex{
+    display: flex;
+}
+.jc-sparound{
+    justify-content: space-around;
+}
+
+.jc-spbetween{
+    justify-content: space-between;
+}
+body {
+    background-color: #b91547;
+    font-family: 'Roboto', sans-serif;
+}

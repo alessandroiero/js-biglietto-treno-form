@@ -1,0 +1,96 @@
+@import url('common.css');
+@import url('reset.css');
+
+
+input, select{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #b91547;
+    border-radius: .3125rem;
+}
+input[type=button]{
+    color: #b91547;
+    font-size: 1.125rem;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.pannel>div{
+    width: 33%;
+}
+
+.container-pagina{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.container.bottoni {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+.container.bottoni form div:not(:first-child){
+    margin-left: 40px;
+
+}
+
+.container.bottoni form div{
+    color: #b91547;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 1.25rem;
+}
+
+form>div{
+    display: inline-block;
+}
+.container {
+    padding: 30px 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+
+.biglietto {
+    display: flex;
+    background-color: white;
+    display: none;
+    padding: 1.875rem;
+}
+
+.biglietto .titolo{
+    padding-bottom: 20px;
+}
+
+.biglietto .nome-cognome{
+    color: black;
+    font-size: 1.5625rem;
+}
+
+.container-bottoni .col-left{
+    background-color: grey;
+    padding: 1.125rem;
+    width: 33%;
+}
+
+.col-right
+{
+    padding: 1.125rem;
+    width: 65%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.col-right h4{
+    margin-bottom: 2.25rem;
+}
+.show{
+    display: block;
+    align-items: center;
+}
