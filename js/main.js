@@ -7,30 +7,29 @@
 // va applicato uno sconto del 40% per gli over 65.
 // L’output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 // Questo richiederà un minimo di ricerca!
+
+
 const nomePasseggero = document.getElementById("name");
 const lungKm = document.getElementById("km");
 const eta = document.getElementById("eta");
-
 const biglietto = document.querySelector('.biglietto');
-
 const genera = document.getElementById("genera");
 console.log(genera);
-
 const randomNum = document.querySelector('.random-num');
 
-// Evento click genera succede questo
+// Evento click genera mostrerà il biglietto
 genera.addEventListener('click',
     function () {
         biglietto.classList.add('show');
-        //Chiedi all'utente nome e cognome
+        //Utente nome e cognome
         const nomePasseggeroValue = nomePasseggero.value;
         console.log(nomePasseggeroValue);
 
-        // Chiedi all'utente il numero di chilometri che vuole percorrere
+        //Numero di chilometri che vuole percorrere
         const lungKmValue = parseFloat(lungKm.value);
         console.log(lungKmValue);
 
-        // Creiamo un prompt con all'interno l'età
+        //Età
         const etaValue = eta.value;
         console.log(etaValue);
 
